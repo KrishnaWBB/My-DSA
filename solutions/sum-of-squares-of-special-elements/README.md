@@ -3,6 +3,6 @@
 - Difficulty: Easy
 - LeetCode problem: https://leetcode.com/problems/sum-of-squares-of-special-elements/
 - Language: cpp
-- Runtime: 2
-- Memory: 40144000
+- Runtime: n/a
+- Memory: 40048000
 - Solved: 2026-10-11
