@@ -1,18 +1,14 @@
 class Solution {
 public:
     bool threeFibonacciSum(int n) {
-        int a = 2, b = 2;
-    if(n==2)return true;
-    for (int i = 0; i < n; i++) {
-        
+        int a = 0, b = 1 , c = 1;
+    while(a+b+c <= n){
+        if(a+b+c == n)return true;
 
-        int c = a + b;
-        if(c > n)return false;
-        else if (c == n)return true;
-
-        
+        int next = b+c;
         a = b;
         b = c;
+        c = next;
     }
         return false;
     }
