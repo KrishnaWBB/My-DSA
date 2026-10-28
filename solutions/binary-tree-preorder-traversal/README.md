@@ -3,6 +3,6 @@
 - Difficulty: Easy
 - LeetCode problem: https://leetcode.com/problems/binary-tree-preorder-traversal/
 - Language: cpp
-- Runtime: n/a
-- Memory: 10840000
+- Runtime: 1
+- Memory: 10900000
 - Solved: 2026-10-28
