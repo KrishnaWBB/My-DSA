@@ -4,5 +4,5 @@
 - LeetCode problem: https://leetcode.com/problems/binary-tree-inorder-traversal/
 - Language: cpp
 - Runtime: n/a
-- Memory: 10664000
+- Memory: 11012000
 - Solved: 2026-10-29
