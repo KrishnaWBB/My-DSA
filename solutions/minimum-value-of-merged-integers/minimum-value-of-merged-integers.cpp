@@ -4,11 +4,11 @@ public:
         int power = 0;
         int temp = n2;
         while(n2 != 0){
-            power++;
+            n1 *= 10;
             n2 /= 10;
         }
-        int tens = pow(10 , power);
-        return (n1*tens + temp);
+        
+        return (n1 + temp);
     }
     int minMergedInteger(vector<int>& nums) {
         int mini = INT_MAX;
